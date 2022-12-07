@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp24
+{
+    internal class Program
+    {
+        static void Print(string [] args)
+        {
+            Console.WriteLine();
+        }
+
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(new string('A', 5));
+            Console.ReadKey();
+
+
+        }
+    }
+}
