@@ -16,7 +16,7 @@ namespace ConsoleApp24
 
         static void Main(string[] args)
         {
-            Console.WriteLine(new string('A', 5));
+            Print(new string('A', 5));
             Console.ReadKey();
 
 
